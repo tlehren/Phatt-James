@@ -1,0 +1,28 @@
+/* Hero */
+
+.hero {
+    background-image: url(/images/phatt-logo-color.png);
+    background-color: #000;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Music */
+
+.music {
+    background-image: url(/images/phatt-logo-faded.png);
+    background-attachment: fixed;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+
+.music .flex {
+    flex-direction: column;
+    
+}
