@@ -1,3 +1,18 @@
+/* Header */
+
+.navbar {
+    background-color: transparent;
+    color: #fff;
+    position: absolute;
+    z-index: 100;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
 /* Hero */
 
 .hero {
@@ -5,9 +20,14 @@
     background-color: #000;
     height: 100vh;
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 48%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.hero .flex {
+    flex-flow: column;
+    justify-content: flex-end;
 }
 
 /* Music */
@@ -15,14 +35,28 @@
 .music {
     background-image: url(/images/phatt-logo-faded.png);
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: 48%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 
 .music .flex {
     flex-direction: column;
     
+}
+
+/* Live */
+.live {
+    background-color: #999;
+    background-image: url(/images/Screen\ Shot\ 2019-10-29\ at\ 10.18.19\ AM.png);
+    color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+
 }

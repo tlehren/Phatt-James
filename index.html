@@ -9,28 +9,54 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="navbar py-1">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#music">Studio</a>
+                    </li>
+                    <li>
+                        <a href="#live">Live</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
     <main>
         <!-- Hero -->
         <section class="hero">
-            <div class="container grid grid-r">
-
+            <div class="container flex">
+                <a href="#music"><i class="fas fa-chevron-down fa-2x"></i></a>
             </div>
         </section>
 
         <!-- Music -->
-        <section class="music text-center">
+        <section class="music text-center" id="music">
             <div class="container flex">
                 <h2>Circle Bent</h2>
                 <p>Check out the debut EP from Phatt James, Circle Bent.</p>
-                <iframe src="https://open.spotify.com/embed/album/0qqK0C2UcCnDMZp3HLM89y" width="50%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <button class="btn">Catch a show</button>
+                <iframe class="my-4" src="https://open.spotify.com/embed/album/0qqK0C2UcCnDMZp3HLM89y" width="50%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <button class="btn"><a href="#live">Catch a show <i class="fas fa-chevron-down"></i></a></button>
                 
             </div>
         </section>
 
+        <!-- Live -->
+        <section class="live text-center" id="live">
+            <div class="container flex">
+                <h2>Live</h2>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about text-center" id="about">
+            <div class="container flex">
+
+            </div>
+        </section>
 
     </main>
     <footer>
