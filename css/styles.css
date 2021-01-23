@@ -91,3 +91,64 @@
     background-blend-mode: multiply;
 
 }
+
+.live .bit-widget-container {
+    width: 100%;
+    padding-top: 5em;
+}
+
+.live .flex {
+    flex-direction: column;
+}
+
+/* About */
+
+.about {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to left top, #bf920b, #cb801e, #d26d30, #d35c42, #ce4e53, #ca495a, #c44561, #be4268, #be4268, #be4268, #be4268, #be4268);
+    height: 100vh;
+    background-blend-mode: multiply;
+}
+
+.about .card {
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 1px;
+    padding: 5%;
+    margin: 10%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about .card a { 
+    color: var(--text-color);
+}
+.about .card a:hover { 
+    color: white;
+}
+
+.about .card .btn {
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+}
+
+.about .card .btn:hover {
+    background-color: var(--text-color);
+}
+
+/* Tablets & Smaller */
+@media(max-width: 748px) {
+    .hero {
+        background-size: contain;
+    }
+
+    .spotify {
+        width: 100%;
+    }
+
+    .live .bit-widget-container {
+        width: auto;
+    }
+
+    .about .card {
+        margin: 1%;
+    }
+}
