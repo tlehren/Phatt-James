@@ -1,15 +1,39 @@
 /* Header */
 
-.navbar {
+.header {
     background-color: transparent;
     color: #fff;
     position: absolute;
     z-index: 100;
-    max-width: 1600px;
     width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
+
+.header .container {
+    width: 90%;
+}
+
+.header .flex {
+    justify-content: space-between;
+}
+
+
+.navbar li {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-right: 1em;
+}
+
+.navbar .social li {
+    padding-right: .75em;
+}
+
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
+
 
 
 
