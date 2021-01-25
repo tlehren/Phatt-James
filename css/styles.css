@@ -22,7 +22,7 @@
 .navbar li {
     text-transform: uppercase;
     font-weight: 500;
-    padding-right: 1em;
+    padding-right: .75em;
 }
 
 .navbar .social li {
@@ -101,8 +101,8 @@
     flex-direction: column;
 }
 
-/* About */
 
+/* About */
 .about {
     background-color: rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to left top, #bf920b, #cb801e, #d26d30, #d35c42, #ce4e53, #ca495a, #c44561, #be4268, #be4268, #be4268, #be4268, #be4268);
@@ -134,9 +134,52 @@
     background-color: var(--text-color);
 }
 
+
+/* Media */
+.media {
+    background-image: url(/images/phatt-logo-faded.png);
+    background-attachment: fixed;
+    background-size: 48%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* Contact */
+.contact {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer .logo {
+    max-width: 100px;
+}
+
+.footer .social li {
+    padding-right: .75em;
+}
+
+.footer a:hover {
+    color: var(--primary-color);
+}
+
+.footer .grid-3 {
+    justify-items: center;
+}
+
+
 /* Tablets & Smaller */
 @media(max-width: 748px) {
-    .hero {
+    .hero, .music, .media {
         background-size: contain;
     }
 
