@@ -112,6 +112,11 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Margin */
 
 .my-1 {

@@ -153,6 +153,37 @@
     height: 100vh;
 }
 
+.contact-form {
+    width: 75%;
+}
+.contact-form .form-control {
+    margin: 1em 0;
+}
+
+.form-control input[type="text"],
+.form-control input[type="email"],
+.form-control textarea {
+    border: none;
+    border-radius: 1px;
+    width: 100%;
+    padding: .5em;
+}
+
+.form-control input, .form-control textarea:focus {
+    outline: none;
+}
+
+
+
+.contact .flex {
+    flex-direction: column;
+}
+
+
+
+
+
+
 
 /* Footer */
 .footer {
