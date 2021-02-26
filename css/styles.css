@@ -106,7 +106,7 @@
 .about {
     background-color: rgba(0, 0, 0, 0.1);
     background-image: linear-gradient(to left top, #bf920b, #cb801e, #d26d30, #d35c42, #ce4e53, #ca495a, #c44561, #be4268, #be4268, #be4268, #be4268, #be4268);
-    height: 100vh;
+    height: 100%;
     background-blend-mode: multiply;
 }
 
@@ -142,7 +142,15 @@
     background-size: 48%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 100%;
+}
+
+.media iframe {
+    margin: 2rem 0;
+}
+
+.media .flex {
+    flex-direction: column;
 }
 
 
